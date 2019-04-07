@@ -1,0 +1,27 @@
+{
+  "name": "learn-typescript",
+  "version": "1.0.0",
+  "description": "typescript-demo",
+  "main": "index.js",
+  "scripts": {
+    "tsc":"tsc -w",
+    "server":"live-server ./ --port=9090"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CreamBing/learn-typescript.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "creambing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CreamBing/learn-typescript/issues"
+  },
+  "homepage": "https://github.com/CreamBing/learn-typescript#readme",
+  "devDependencies": {
+    "@types/bootstrap": "^4.3.0",
+    "@types/jquery": "^3.3.29"
+  }
+}
